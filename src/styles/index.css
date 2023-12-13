@@ -10,3 +10,73 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.father {
+    display: flex;
+    justify-content: center;
+  }
+  .top {
+    width: 12vh;
+    margin: 0 auto;
+    height: 1vh;
+    background-color: black;
+    margin-top: 9vh;
+    border-top-right-radius: 75%;
+    border-top-left-radius: 75%;
+  }
+  .housing {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 15vh;
+    height: 30vh;
+    border-radius: 5%;
+    margin-top: 0vh;
+  }
+  .medium {
+    margin: auto;
+    width: 5vh;
+    height: 40vh;
+  }
+  .base {
+    margin: auto;
+    width: 15vh;
+    height: 15vh;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+  }
+  .lights {
+    border-radius: 50%;
+    height: 8vh;
+    width: 8vh;
+  }
+  .leftcaps {
+    width: 5vh;
+    height: 30vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .leftcap {
+    border-bottom-left-radius: 50%;
+    background-color: black;
+    width: 8vh;
+    height: 8vh;
+  }
+  .rightcaps {
+    width: 10vh;
+    height: 30vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .rightcap {
+    border-bottom-right-radius: 60%;
+    background-color: black;
+    width: 5.5vh;
+    height: 8vh;
+  }
+  
